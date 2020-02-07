@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,12 @@
     <link rel="stylesheet" href="css/iniciar-sesion.css">
     <title>Iniciar Sesión</title>
 </head>
+
 <body>
     <header>
-        <img class="header__img" src="assets/logo-platzi-video-BW2.png" alt="logo">
+        <a href="index.html">
+            <img class="header__img" src="assets/logo-platzi-video-BW2.png" alt="logo">
+        </a>
     </header>
     <section class="login">
         <div class="login__container">
@@ -18,7 +22,9 @@
             <form class="login__container--form">
                 <input class="input" type="text" placeholder="Correo">
                 <input class="input" type="password" placeholder="Contraseña">
-                <button class="button"> Iniciar sesión</button>
+                <a href="index.html" class="button">
+                    <p>Iniciar sesión</p>
+                </a>
                 <div class="login__container--remember-me">
                     <label>
                         <input type="checkbox" name="" id="box1" value="checkbos">Recuérdame
@@ -26,16 +32,17 @@
                     <a href="/">Olvidé mi contraseña</a>
                 </div>
             </form>
-        <section class="login__container--social-media">
-            <div><img src="assets/google-icon.png" alt="google">Inicia sesión con Google</div>
-            <div><img src="assets/twitter-icon.png" alt="twitter">Inicia sesión con Twitter</div>
-        </section>
-        <p class="login__container--register">No tienes una cuenta<a href="/">Regístrate</a></p>
+            <section class="login__container--social-media">
+                <div><img src="assets/google-icon.png" alt="google">Inicia sesión con Google</div>
+                <div><img src="assets/twitter-icon.png" alt="twitter">Inicia sesión con Twitter</div>
+            </section>
+            <p class="login__container--register">¿No tienes una cuenta?<a href="Registro.html">Regístrate</a></p>
         </div>
-    <footer class="footer">
-        <a href="/">Términos de uso</a>
-        <a href="/">Declaración de privacidad</a>
-        <a href="/">Centro de ayuda</a>
-    </footer>
+        <footer class="footer">
+            <a href="/">Términos de uso</a>
+            <a href="/">Declaración de privacidad</a>
+            <a href="/">Centro de ayuda</a>
+        </footer>
 </body>
+
 </html>

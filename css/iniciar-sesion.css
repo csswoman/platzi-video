@@ -129,6 +129,12 @@ body {
     height: 50px;
     letter-spacing: 1px;
     margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
 }
 
 .footer {
